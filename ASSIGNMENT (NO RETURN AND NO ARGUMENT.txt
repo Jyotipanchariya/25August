@@ -1,0 +1,524 @@
+1.
+#include<stdio.h>
+void show();
+int main()
+{
+  show();
+  return 0;
+}
+void show(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int c=a+b;
+    printf("%d",c);
+}
+-------------------------------------------------------------------------------------------------------------------------------------------
+                       USER INPUT
+2.1 add()
+#include<stdio.h>
+void add();
+int main()
+{
+  add();
+  return 0;
+}
+void add(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int c=a+b;
+    printf("%d",c);
+}
+------------------------------------------------------------------
+2.2 sub()
+#include<stdio.h>
+void sub();
+int main()
+{
+  sub();
+  return 0;
+}
+void sub(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int c=a-b;
+    printf("%d",c);
+}
+------------------------------------------------------------------------------
+2.3 div()
+
+#include<stdio.h>
+void div();
+int main()
+{
+  div();
+  return 0;
+}
+void div(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int c=a/b;
+    printf("%d",c);
+}
+-------------------------------------------------------------------------------
+2.4 mutli
+
+#include<stdio.h>
+void multi();
+int main()
+{
+  multi();
+  return 0;
+}
+void multi(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int c=a*b;
+    printf("%d",c);
+}
+------------------------------------------------------------------------------------
+2.5 modular
+
+#include<stdio.h>
+void modular();
+int main()
+{
+  modular();
+  return 0;
+}
+void modular(){
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int c=a%b;
+    printf("%d",c);
+}
+-------------------------------------------------------------------------------------
+
+2.1 add()                                CONSTANT
+#include<stdio.h>
+void add();
+int main()
+{
+  add();
+  return 0;
+}
+void add(){
+    int a=2,b=3,c;
+
+   c=a+b;
+    printf("%d",c);
+}
+-----------------------------------------------------------------------------------------
+2.2 sub()
+#include<stdio.h>
+void sub();
+int main()
+{
+  sub();
+  return 0;
+}
+void sub(){
+    int a=8,b=3,c;
+
+   c=a-b;
+    printf("%d",c);
+}
+---------------------------------------------------------------------------------------
+2.3 div()
+
+#include<stdio.h>
+void div();
+int main()
+{
+  div();
+  return 0;
+}
+void div(){
+    int a=8,b=4,c;
+
+   c=a/b;
+    printf("%d",c);
+}
+------------------------------------------------------------------------------------------
+2.4 multi()
+
+#include<stdio.h>
+void multi();
+int main()
+{
+  multi();
+  return 0;
+}
+void mutli(){
+    int a=2,b=3,c;
+
+   c=a*b;
+    printf("%d",c);
+}
+-------------------------------------------------------------------------------------------------
+2.5 modular()
+#include<stdio.h>
+void modular();
+int main()
+{
+ modular();
+  return 0;
+}
+void modular(){
+    int a=2,b=3,c;
+
+   c=a%b;
+    printf("%d",c);
+}
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+3.1 voter id
+#include<stdio.h>
+void voterid();
+int main()
+{
+    voterid();
+    return 0;
+}
+void voterid()
+{
+    int age=89;
+    if(age>18)
+    {
+        printf("valid for vote");
+    }
+}
+---------------------------------------------------
+3.2 odd even
+
+#include<stdio.h>
+void even();
+int main()
+{
+    even();
+    return 0;
+}
+void even()
+{
+    int num;
+    printf("enter the value of num");
+    scanf("%d",&num);
+    
+    if(num%2==0)
+    {
+        printf("number is even");
+        
+    }
+    else{
+        printf(" number is odd");
+    }
+--------------------------------------------------------------------------------------------------------------------------------------------
+4.1 print all 1 to 100 even number
+
+#include<stdio.h>
+void even();
+int main()
+{
+    even();
+    return 0;
+}
+void even()
+{
+    for (int i = 2; i <= 100; i++){
+        if (i % 2 == 0){
+            printf("%d\n", i);
+        }
+    }
+   
+}
+---------------------------------------------------------------------
+4.2 print even number betwwen 
+
+#include<stdio.h>
+void even();
+int main()
+{
+    even();
+    return 0;
+}
+void even()
+{
+    for (int i = 34; i <= 89; i++){
+        if (i % 2 == 0){
+            printf("%d\n", i);
+        }
+    }
+   
+}
+---------------------------------------------------------------------
+
+4.3 print odd number 1 to 100
+
+#include<stdio.h>
+void odd();
+int main()
+{
+   odd();
+    return 0;
+}
+void odd()
+{
+    for (int i = 1; i <= 97; i++){
+        if (i % 2 ==! 0){
+            printf("%d\n", i);
+        }
+    }
+   
+}
+------------------------------------------------------------------------
+4.4 print odd number between 
+
+#include<stdio.h>
+void odd();
+int main()
+{
+    odd();
+    return 0;
+}
+void odd()
+{
+    for (int i = 35; i <= 87; i++){
+        if (i % 2 ==! 0){
+            printf("%d\n", i);
+        }
+    }
+   
+}
+--------------------------------------------------------------------------------------------------------------------------------
+5.1 factorial
+
+#include<stdio.h> 
+void fact();
+int main()
+{
+    fact();
+    return 0;
+}
+
+void fact()  
+{
+ int i,fact=1,number;    
+ printf("Enter a number: ");    
+  scanf("%d",&number);    
+    for(i=1;i<=number;i++)
+    {    
+      fact=fact*i;    
+  }  
+  printf("Factorial of %d is: %d",number,fact);  
+}
+------------------------------------------------------------------------------
+5.2 prime or not
+
+#include<stdio.h>
+void prime();
+int main()
+{
+    prime();
+    return 0;
+}
+ void prime()
+ {  
+     int num=7,i=2;
+     while(num>=i)
+     {
+         if(num%i==0)
+         {
+             break;
+         }
+         if(i==num-1)
+         {
+             printf("prime");
+         }
+         i++;
+     }
+ }
+ ------------------------------------------------------------------------------
+5.3 swap number
+
+#include<stdio.h>
+void swap();
+int main()
+{
+    swap();
+    return 0;
+}
+void swap()
+{   int way;
+    printf ("by which way you want to swap");
+    scanf("%d", &way);
+  
+    if (way == 1)
+    {
+      
+      int a, b, c;
+      
+        printf ("enter the value of a and b");
+        scanf ("%d %d", &a, &b);
+        c = a;
+        a = b;
+        b = c;
+      
+       printf ("vaule of  after swap %d %d", a, b);
+    
+    }
+  
+  else if (way == 2)
+    
+    {
+       int a,b;
+         printf ("enter the value of a and b");
+         scanf ("%d %d", &a, &b);
+         a=a*b;
+         b=a/b;
+         a=a/b;
+         printf("\nthe value of a and b after swap is %d %d",a ,b);
+    }
+
+    else if(way==3)
+    {
+       
+       int a;
+       int b;
+      
+         printf ("enter the value of a and b");
+         scanf ("%d %d", &a, &b);
+         a=a+b;
+         b=a-b;
+         a=a-b;
+         printf("\nthe value of a and b after swap is %d %d",a ,b);
+    }
+ }
+ 
+------------------------------------------------------------------------------------------------
+5.4 armstrong 
+
+ #include<stdio.h>
+void armstrong();
+int main()
+{
+    armstrong();
+    return 0;
+}
+void armstrong()
+{
+    int num=53,rem,sum=0;
+    int temp;
+    temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    printf(" num %d",sum);
+    
+    if(temp==sum)
+    {
+        printf("armstrong");
+    }
+    else{
+        printf("\nnot armstrong");
+    }
+}
+ 
+ ---------------------------------------------------------------------------------------------
+5.5 pallidrom
+
+#include<stdio.h>
+void pallidrom();
+int main()
+{
+    pallidrom();
+    return 0;
+}
+void pallidrom()
+{
+    int num=1231,rem,sum=0;
+    int temp;
+   temp=num;
+    while(num>0)
+    {
+        rem=num%10;
+        sum=sum*10+rem;
+        num=num/10;
+    }
+    printf("reverse num %d",sum);
+    
+    if(temp==sum)
+    {
+        printf("pallidrom");
+    }
+    else{
+        printf("\nnot pallidrom");
+    }
+}
+--------------------------------------------------------------------------------------------------------------------
+5.6 reverse number
+
+#include<stdio.h>
+void reverse();
+int main()
+{
+    reverse();
+    return 0;
+}
+void reverse()
+{
+
+  int n, reverse = 0, remainder;
+
+  printf("Enter an integer: ");
+  scanf("%d", &n);
+
+  while (n != 0) {
+    remainder = n % 10;
+    reverse = reverse * 10 + remainder;
+    n /= 10;
+  }
+
+  printf("Reversed number = %d", reverse);
+
+  
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7. leap year
+
+#include <stdio.h>
+void leap();
+int main()
+{
+    leap();
+    return 0;
+}
+  void leap(){  
+   int year;
+   printf("Enter a year: ");
+   scanf("%d", &year);
+
+  
+   if (year % 400 == 0) {
+      printf("%d is a leap year.", year);
+   }
+   
+   else if (year % 100 == 0) {
+      printf("%d is not a leap year.", year);
+   }
+  
+   else if (year % 4 == 0) {
+      printf("%d is a leap year.", year);
+   }
+  
+   else {
+      printf("%d is not a leap year.", year);
+   }
+
+   return 0;
+}
+-----------------------------------------------------------------------------------------------------------------------
+
+

@@ -1,0 +1,195 @@
+                             RETURN AND ARGUMENT
+
+
+1. add()---------- constant---------------------------------------------------------------------------------
+
+#include<stdio.h>
+int add(int a,int b);
+int main()
+{
+    int result=add(2,3);
+    printf("%d",result);
+    return 0;
+    
+}
+
+    int add(int a,int b)
+ {
+    return a+b;
+}
+--------------------------------------------------
+
+2. SUB()
+
+#include<stdio.h>
+int sub(int a,int b);
+int main()
+{
+    int result=sub(6,3);
+    printf("%d",result);
+    return 0;
+    
+}
+
+    int sub(int a,int b)
+ {
+    return a-b;
+}
+------------------------------------------------------
+
+3. multi()
+
+
+#include<stdio.h>
+int multi(int a,int b);
+int main()
+{
+    int result=multi(9,3);
+    printf("%d",result);
+    return 0;
+    
+}
+
+    int multi(int a,int b)
+ {
+    return a*b;
+}
+
+---------------------------------------------------------
+
+4. divide()
+
+#include<stdio.h>
+int divide(int a,int b);
+int main()
+{
+    int result=divide(2,3);
+    printf("%d",result);
+    return 0;
+    
+}
+
+    int divide(int a,int b)
+ {
+    return a/b;
+}
+------------------------------------------------------------
+5. modular()
+
+#include<stdio.h>
+int modular(int a,int b);
+int main()
+{
+    int result=modular(7,3);
+    printf("%d",result);
+    return 0;
+    
+}
+
+    int modular(int a,int b)
+ {
+    return a%b;
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+                                                                 user input 
+1. add()
+
+#include<stdio.h>
+int add(int a,int b);
+int main()
+{
+   int num1,num2;
+   scanf("%d %d",&num1,&num2);
+   int result=add(num1,num2);
+   printf("%d",result);
+   return 0;
+    
+}
+int add(int a,int b)
+ {
+     //int c=a+b;
+    return a+b;
+}
+
+---------------------------------------------------
+2. sub()
+
+#include<stdio.h>
+int sub(int a,int b);
+int main()
+{
+   int num1,num2;
+   scanf("%d %d",&num1,&num2);
+   int result=sub(num1,num2);
+   printf("%d",result);
+   return 0;
+    
+}
+int sub(int a,int b)
+ {
+     //int c=a-b;
+    return a-b;
+}
+-----------------------------------------------------
+3. multi()
+
+#include<stdio.h>
+int multi(int a,int b);
+int main()
+{
+   int num1,num2;
+   scanf("%d %d",&num1,&num2);
+   int result=multi(num1,num2);
+   printf("%d",result);
+   return 0;
+    
+}
+int multi(int a,int b)
+ {
+     //int c=a*b;
+    return a*b;
+}
+-------------------------------------------------------
+4. divide()
+
+#include<stdio.h>
+int divide(int a,int b);
+int main()
+{
+   int num1,num2;
+   scanf("%d %d",&num1,&num2);
+   int result=divide(num1,num2);
+   printf("%d",result);
+   return 0;
+    
+}
+int divide(int a,int b)
+ {
+     //int c=a/b;
+    return a/b;
+}
+
+----------------------------------------------------------
+
+5. modular()
+
+#include<stdio.h>
+int modular(int a,int b);
+int main()
+{
+   int num1,num2;
+   scanf("%d %d",&num1,&num2);
+   int result=modular(num1,num2);
+   printf("%d",result);
+   return 0;
+    
+}
+int modular(int a,int b)
+ {
+     //int c=a%b;
+    return a%b;
+}
+---------------------------------------------------------==================================================================================================

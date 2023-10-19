@@ -1,0 +1,98 @@
+while loop assignemnt-----------
+-------------------------------------------------
+1. print 1 to 100
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=100)
+	{
+		printf("\n%d",a);
+		a++;
+	}
+	return 0;
+}
+ 
+------------------------------------------------------------------
+
+2. print 100 to 1
+
+#include<stdio.h>
+int main()
+{
+	int a=100;
+	while(a>=1)
+	{
+		printf("\n%d",a);
+		a--;
+	}
+	return 0;
+}
+----------------------------------------------------------------------
+3. print 10 to 1
+
+#include<stdio.h>
+int main()
+{
+	int a=10;
+	while(a>=1)
+	{
+		printf("\n%d",a);
+		a--;
+	}
+	return 0;
+}
+----------------------------------------------------------------------
+
+4. print 50 to 500
+
+#include<stdio.h>
+int main()
+{
+	int a=50;
+	while(a<=500)
+	{
+		printf("\n%d",a);
+		a++;
+	}
+	return 0;
+}
+------------------------------------------------------------------
+5. print first to last element
+#include <stdio.h>
+
+int main() {
+    int firstnumber;
+    printf("Enter the first number: ");
+    scanf("%d", &firstnumber);
+    
+    int currentNumber = 3; 
+    while (currentNumber <= firstnumber) {
+        printf("%d\n", currentNumber);
+        currentNumber++; 
+    }
+    
+    return 0;
+}
+
+
+or 
+
+
+#include <stdio.h>
+
+int main() {
+    int firstnumber;
+    printf("Enter the first number: ");
+    scanf("%d",&firstnumber);
+    
+    int currentNumber ; 
+    scanf("%d",&currentNumber);
+    while (firstnumber<=currentNumber)
+	 {
+        printf("%d\n",firstnumber);
+        firstnumber++; 
+    }
+    
+    return 0;
+}
